@@ -59,7 +59,7 @@ $router->get('refresh', 'MigrationController::refresh');
 $router->get('status', 'MigrationController::status');
 
 
-$router->post('create',         'AuthController::register');
+$router->post('create',         'AuthController::create');
 $router->post('login',            'AuthController::login');
 $router->post('logout',           'AuthController::logout');
 $router->post('refresh',          'AuthController::refresh');
