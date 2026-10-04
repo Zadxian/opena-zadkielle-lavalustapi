@@ -7,6 +7,8 @@ class ProductController extends Controller
     {
         parent::__construct();
         $this->call->library('api');
+        $this->call->database();
+
     }
 
     public function index()
